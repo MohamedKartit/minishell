@@ -18,7 +18,7 @@ Our minishell implementation includes both the mandatory and bonus features as o
 - `env`: Display environment variables
 - `unset`: Remove environment variables
 - `exit`: Exit the shell
-- `history`: Display command history (bonus feature)
+- `history`: Display command history (not required)
 
 ### Shell Functionalities
 - Simple command execution
@@ -29,7 +29,7 @@ Our minishell implementation includes both the mandatory and bonus features as o
 - Logical OR operator (`||`) (bonus)
 - Logical AND operator (`&&`) (bonus)
 - Wildcards (`*`) (bonus)
-- Interactive and non-interactive modes
+- Interactive and non-interactive modes (not required)
 
 ## 🚀 Getting Started
 
