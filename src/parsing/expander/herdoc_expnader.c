@@ -76,9 +76,7 @@ int	ft_counte_herdoc_len(char *line)
 void	ft_gen_expanded_herdoc(char **new, char *line)
 {
 	int	i;
-	int	counter;
 
-	counter = 0;
 	i = -1;
 	while (line[++i])
 	{

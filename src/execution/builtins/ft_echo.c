@@ -35,9 +35,9 @@ static void	print_args(t_cmd *tmp, int flag)
 		tmp = tmp->next;
 	while (tmp && tmp->arg)
 	{
-		printf("%s", tmp->arg);
+		write(1, tmp->arg, ft_strlen(tmp->arg));
 		if (tmp->next)
-			printf(" ");
+			write(1, " ", 1);
 		tmp = tmp->next;
 	}
 }
@@ -64,6 +64,6 @@ int	ft_echo(t_cmd *cmd, t_mshell *shell)
 		print_args(tmp, flag);
 	}
 	if (count == 0)
-		printf("\n");
+		write(1, "\n", 1);
 	return (0);
 }

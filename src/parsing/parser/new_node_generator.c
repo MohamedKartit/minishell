@@ -38,9 +38,7 @@ t_cmd	*ft_gen_cmd(t_token *tokens)
 {
 	int		flag;
 	t_cmd	*cmd;
-	char	**args;
 
-	args = NULL;
 	cmd = NULL;
 	flag = 0;
 	while (tokens && tokens->value)
